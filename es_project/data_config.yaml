@@ -1,0 +1,21 @@
+colors:
+- - 90
+  - 211
+  - 41
+- - 248
+  - 231
+  - 28
+- - 155
+  - 155
+  - 155
+- - 208
+  - 2
+  - 27
+names:
+- electric_scooter
+- brailleblock
+- crosswalk
+- fireplug
+nc: 4
+train: ../es_project/images/train
+val: ../es_project/images/val
