@@ -67,11 +67,11 @@ def upload_file():
         geocode = Lat, Lon
     return render_template('index.html', geocode = geocode)
 
-
+'''
 @app.route('/map')
 def index():
     return render_template('index.html')
-
+'''
 
 if __name__ == '__main__':
     app.run(port=8080, debug=True)

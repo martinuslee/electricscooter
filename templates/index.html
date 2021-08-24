@@ -4,10 +4,18 @@
     <script>
        var myGeocode = ['{{ geocode[0] }}', '{{ geocode[1] }}'];
     </script>
+    <style>
+      #map{
+        align-items: center;
+        justify-content: center;
+        width: 900px; 
+        height: 800px
+      }
+    </style>
   </head>
   <body>
-    <form action="/map" method="POST">
-      <div id="map" style="width: 500px; height: 400px"></div>
+    <form action="/fileUpload" method="POST">
+      <div id="map"></div>
       <script
         type="text/javascript"
         src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a4a758b850a6e1b634ab1f422b4475a1"
