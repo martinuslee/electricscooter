@@ -15,9 +15,9 @@ def upload_file():
     if request.method == 'POST':
         f = request.files['file']
         #저장할 경로 + 파일명
-        f.save('/Users/jongheon/dev/electricscooter/static/uploads/' + secure_filename(f.filename))
+        #f.save('/Users/jongheon/dev/electricscooter/static/uploads/' + secure_filename(f.filename))
         #f = request.files['file1'].read()
-        image = Image.open('/Users/jongheon/dev/electricscooter/static/uploads/' + secure_filename(f.filename))
+        image = Image.open(request.files['file'].stream)
         info = image._getexif();
         image.close()
         # 새로운 딕셔너리 생성
@@ -32,19 +32,25 @@ def upload_file():
         lonData = exifGPS[4]
 
         # 도, 분, 초 계산
-        latDeg = latData[0][0] / float(latData[0][1])
-        latMin = latData[1][0] / float(latData[1][1])
-        latSec = latData[2][0] / float(latData[2][1])
+        #latDeg = latData[0][0] / (latData[0][1])
+        #latMin = latData[1][0] / (latData[1][1])
+        #latSec = latData[2][0] / (latData[2][1])
+        latDeg = latData[0]
+        latMin = latData[1] 
+        latSec = latData[2]         
         
-        lonDeg = lonData[0][0] / float(lonData[0][1])
-        lonMin = lonData[1][0] / float(lonData[1][1])
-        lonSec = lonData[2][0] / float(lonData[2][1])
+        lonDeg = lonData[0]
+        lonMin = lonData[1]
+        lonSec = lonData[2]     
+        #lonDeg = lonData[0][0] / (lonData[0][1])
+        #lonMin = lonData[1][0] / (lonData[1][1])
+        #lonSec = lonData[2][0] / (lonData[2][1])
         
         # 도, 분, 초로 나타내기
-        Lat = str(int(latDeg)) + "°" + str(int(latMin)) + "'" + str(latSec) + "\"" + exifGPS[1]
-        Lon = str(int(lonDeg)) + "°" + str(int(lonMin)) + "'" + str(lonSec) + "\"" + exifGPS[3]
+        #Lat = str(int(latDeg)) + "°" + str(int(latMin)) + "'" + str(latSec) + "\"" + exifGPS[1]
+        #Lon = str(int(lonDeg)) + "°" + str(int(lonMin)) + "'" + str(lonSec) + "\"" + exifGPS[3]
         
-        print(Lat, Lon)
+        #print(Lat, Lon)
         
         # 도 decimal로 나타내기
         # 위도 계산
@@ -58,8 +64,8 @@ def upload_file():
         if exifGPS[3] == 'W': Lon = Lon * -1
         
         print(Lat, ",",  Lon)
-        value = [Lat,Lon]
-    return value
+        geocode = Lat, Lon
+    return render_template('index.html', geocode = geocode)
 
 
 @app.route('/map')

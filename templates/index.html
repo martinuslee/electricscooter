@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <script>
+       var myGeocode = ['{{ geocode[0] }}', '{{ geocode[1] }}'];
+    </script>
+  </head>
   <body>
     <form action="/map" method="POST">
       <div id="map" style="width: 500px; height: 400px"></div>
@@ -8,13 +12,14 @@
         type="text/javascript"
         src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a4a758b850a6e1b634ab1f422b4475a1"
       ></script>
+
       <script>
         var container = document.getElementById("map"); //지도를 담을 영역의 DOM 레퍼런스
-        var currentPosition = new kakao.maps.LatLng(value);
+        var currentPosition = new kakao.maps.LatLng(myGeocode[0], myGeocode[1]);
 
         var options = {
           //지도를 생성할 때 필요한 기본 옵션
-          center: new kakao.maps.LatLng(value), //지도의 중심좌표.
+          center: new kakao.maps.LatLng(myGeocode[0], myGeocode[1]), //지도의 중심좌표.
           level: 3, //지도의 레벨(확대, 축소 정도)
         };
         var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
