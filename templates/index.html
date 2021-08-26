@@ -3,40 +3,16 @@
 
 <head>
   <meta charset="utf-8">
+  <title>Canstop</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   <script>
-    var myobj = '{{ obj }}';
+    var myobj = '검출된 객체 : {{ obj }} <br/>';
     function ObjectName() {
-      document.write('검출된 객체 : ' + myobj + '<br>');
+      document.getElementById("i_result").innerHTML = myobj;
+      //document.write('검출된 객체 : ' + myobj + '<br>');
     }
   </script>
-  <style>
-    @media only screen and (max-device-width:480px) and (min-device-width:320px) {
-      #map {
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 350px;
-      }
-
-      .content {
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-      }
-
-      .content p {
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-      }
-
-      .yolo {
-        width: 100%;
-        height: 350px;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -48,13 +24,16 @@
       <br />
       <div id="map"></div>
       <br />
-      <div>
-        '{{check}}'
-        <input type="button" value="reupload" onclick=window.history.go(-1);>
+      <div class="info">
+        <span>'{{check}}'</span><br />
+        <input type="button" value="reupload" onclick=window.history.go(-1);><br />
+        <span id='i_result'>
+          <script>
+            ObjectName();
+          </script>
+          <br />
+        </span>
       </div>
-      <script>
-        ObjectName();
-      </script>
       <br />
       <div>
         {% if True %}

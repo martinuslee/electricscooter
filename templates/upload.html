@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+  <title>Canstop</title>
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for('static', filename='/icon/apple-icon-57x57.png')}}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ url_for('static', filename='/icon/apple-icon-60x60.png')}}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='/icon/apple-icon-72x72.png')}}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='/icon/apple-icon-76x76.png')}}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='/icon/apple-icon-114x114.png')}}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ url_for('static', filename='/icon/apple-icon-120x120.png')}}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='/icon/apple-icon-144x144.png')}}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for('static', filename='/icon/apple-icon-152x152.png')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='/icon/apple-icon-180x180.png')}}">
+  <link rel="icon" type="image/png" sizes="192x192"
+    href="{{ url_for('static', filename='/icon/android-icon-192x192.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='/icon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ url_for('static', filename='/icon/favicon-96x96.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='/icon/favicon-16x16.png')}}">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -33,77 +34,14 @@
       $(".upload-name").val(fileName);
     });
   </script>
-  <style>
-    @media only screen and (max-device-width:480px) and (min-device-width:320px) {
-
-      div {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-      /* 모바일 */
-      .filebox input[type="file"] {
-        position: absolute;
-        width: 0;
-        height: 0;
-        padding: 0;
-        overflow: hidden;
-        border: 0;
-      }
-
-      .filebox label {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 40px;
-        color: #999;
-        vertical-align: middle;
-        background-color: #fdfdfd;
-        cursor: pointer;
-        border: 1px solid #ebebeb;
-        border-radius: 5px;
-      }
-
-      /* named upload */
-      .filebox .upload-name {
-        display: inline-block;
-        height: 35px;
-        font-size: 18px;
-        padding: 0 10px;
-        vertical-align: middle;
-        background-color: #f5f5f5;
-        border: 1px solid #ebebeb;
-        border-radius: 5px;
-      }
-
-      .submit {
-        display: block;
-        padding: 20px 40px;
-        color: #999;
-        margin: 0 auto;
-        margin-top: 10px;
-        background-color: #fdfdfd;
-        cursor: pointer;
-        border: 1px solid #ebebeb;
-        border-radius: 5px;
-      }
-
-      img {
-        display: block;
-        margin: 0px auto
-      }
-    }
-  </style>
 </head>
 
 <body>
   <form action="https://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
     <div class="filebox">
-      <img src="https://image.flaticon.com/icons/png/512/1553/1553985.png" height="100" width="100"><br />
-      <p align="center"><b>팀 제목</b></p><br />
+      <img class='yolo' , src="{{ url_for('static', filename='/icon/test-removebg-preview.png') }}" height="200"
+        width="350"><br />
+      <p align="center"><b>데이터청년캠퍼스 4팀 Canstop(가제)</b></p><br />
       <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
       <label for="file">업로드</label>
       <input type="file" id="file" name="file">
