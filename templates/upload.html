@@ -3,9 +3,29 @@
 
 <head>
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+    integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script>
     $("#file").on('change', function () {
@@ -35,7 +55,9 @@
       }
 
       .filebox label {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 20px 40px;
         color: #999;
         vertical-align: middle;
@@ -68,17 +90,26 @@
         border: 1px solid #ebebeb;
         border-radius: 5px;
       }
+
+      img {
+        display: block;
+        margin: 0px auto
+      }
     }
   </style>
 </head>
 
 <body>
-  <form action="http://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
+  <form action="https://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
     <div class="filebox">
+      <img src="https://image.flaticon.com/icons/png/512/1553/1553985.png" height="100" width="100"><br />
+      <p align="center"><b>팀 제목</b></p><br />
       <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
       <label for="file">업로드</label>
       <input type="file" id="file" name="file">
-      <input class="submit" type="submit" />
+      <input class="submit" type="submit" /><br />
+      <p align="center"><b>이용 방법</b></p><br />
+      <p>업로드 버튼을 터치하여 사진 촬영 또는 갤러리에서 사진 파일 선택 후 제출 버튼을 터치해주세요.</p><br />
     </div>
   </form>
 </body>

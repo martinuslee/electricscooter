@@ -1,0 +1,268 @@
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://192.168.200.21:5550/ (Press CTRL+C to quit)
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+163.152.233.13 - - [25/Aug/2021 21:17:55] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:17:56] "GET /upload HTTP/1.1" 200 -
+Saved 1 image to 'static'
+163.152.233.13 - - [25/Aug/2021 21:18:44] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:18:44] "GET /static/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static'
+163.152.233.13 - - [25/Aug/2021 21:19:02] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:19:02] "GET /static/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static'
+163.152.233.13 - - [25/Aug/2021 21:19:41] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:19:41] "GET /static/image0.jpg HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:20:13] "GET /upload HTTP/1.1" 200 -
+Saved 1 image to 'static'
+163.152.233.13 - - [25/Aug/2021 21:20:34] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:20:34] "GET /static/image0.jpg HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:21:23] "GET /upload HTTP/1.1" 200 -
+Saved 1 image to 'static'
+163.152.233.13 - - [25/Aug/2021 21:21:29] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.13 - - [25/Aug/2021 21:21:29] "GET /static/image0.jpg HTTP/1.1" 200 -
+121.160.108.131 - - [25/Aug/2021 21:23:00] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:48:20] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:48:21] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:48:22] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:49:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+221.158.178.71 - - [25/Aug/2021 21:49:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+221.158.178.71 - - [25/Aug/2021 21:49:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+221.158.178.71 - - [25/Aug/2021 21:49:48] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:49:56] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:50:00] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 21:51:20] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 22:15:42] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 22:16:13] "GET /upload HTTP/1.1" 200 -
+Saved 1 image to 'static'
+221.158.178.71 - - [25/Aug/2021 22:16:24] "POST /fileUpload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 22:16:26] "GET /static/image0.jpg HTTP/1.1" 200 -
+175.223.14.19 - - [25/Aug/2021 22:16:34] "GET /upload HTTP/1.1" 200 -
+175.223.14.19 - - [25/Aug/2021 22:16:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+175.223.14.19 - - [25/Aug/2021 22:16:46] "GET /upload HTTP/1.1" 200 -
+175.223.14.19 - - [25/Aug/2021 22:16:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+221.158.178.71 - - [25/Aug/2021 22:18:32] "GET /upload HTTP/1.1" 200 -
+Saved 1 image to 'static'
+221.158.178.71 - - [25/Aug/2021 22:29:29] "POST /fileUpload HTTP/1.1" 200 -
+221.158.178.71 - - [25/Aug/2021 22:29:30] "GET /static/image0.jpg HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:29] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 89, in upload_file
+    return render_template('index.html', check = check_msg)
+UnboundLocalError: local variable 'check_msg' referenced before assignment
+221.158.178.71 - - [26/Aug/2021 08:48:29] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:29] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:29] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:29] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:36] "[35m[1mPOST /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 75, in upload_file
+    image = Image.open(request.files['file'].stream)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/PIL/Image.py", line 3024, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file <tempfile.SpooledTemporaryFile object at 0x7f0aa7d1b6d0>
+221.158.178.71 - - [26/Aug/2021 08:48:38] "GET /upload HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:38] "GET /upload HTTP/1.1" 200 -
+Saved 1 image to 'static'
+221.158.178.71 - - [26/Aug/2021 08:48:44] "POST /fileUpload HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:48:44] "GET /static/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static'
+221.158.178.71 - - [26/Aug/2021 08:49:26] "POST /fileUpload HTTP/1.1" 200 -
+221.158.178.71 - - [26/Aug/2021 08:49:26] "GET /static/image0.jpg HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 09:03:37] "GET /upload HTTP/1.1" 200 -
+163.152.233.31 - - [26/Aug/2021 09:04:35] "GET /upload HTTP/1.1" 200 -
+163.152.233.31 - - [26/Aug/2021 09:04:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+Saved 1 image to 'static'
+163.152.233.31 - - [26/Aug/2021 09:05:07] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.31 - - [26/Aug/2021 09:05:07] "GET /static/image0.jpg HTTP/1.1" 200 -
+163.152.233.31 - - [26/Aug/2021 09:05:37] "GET /upload HTTP/1.1" 200 -
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+[]
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter']
+False
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter']
+False
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter']
+False
+6C4D8E0E-0825-4D20-921A-4BE45EF68EEA.jpeg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter', 'fireplug', 'electric_scooter']
+True
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter', 'fireplug', 'electric_scooter', 'brailleblock', 'brailleblock']
+True
+AAFFF1E9-7036-4C25-84B8-FCC62B656EBD.jpeg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter', 'fireplug', 'electric_scooter', 'brailleblock', 'brailleblock']
+True
+AAFFF1E9-7036-4C25-84B8-FCC62B656EBD.jpeg
+6E2ABD51-9D1E-4412-96DA-019A2F9800A9.jpeg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter', 'fireplug', 'electric_scooter', 'brailleblock', 'brailleblock', 'fireplug', 'electric_scooter']
+True
+6E2ABD51-9D1E-4412-96DA-019A2F9800A9.jpeg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter', 'fireplug', 'electric_scooter', 'brailleblock', 'brailleblock', 'fireplug', 'electric_scooter', 'fireplug', 'electric_scooter']
+True
+16299362796673717456172456372024.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+['electric_scooter', 'electric_scooter', 'fireplug', 'electric_scooter', 'brailleblock', 'brailleblock', 'fireplug', 'electric_scooter', 'fireplug', 'electric_scooter', 'electric_scooter']
+True
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 90
+    return render_template('index.html', check = check_msg, obj)
+                                                           ^
+SyntaxError: positional argument follows keyword argument

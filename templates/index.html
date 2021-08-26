@@ -2,19 +2,21 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   <script>
-    var myGeocode = ['{{ geocode[0] }}', '{{ geocode[1] }}'];
+    var myobj = '{{ obj }}';
+    function ObjectName() {
+      document.write('검출된 객체 : ' + myobj + '<br>');
+    }
   </script>
   <style>
     @media only screen and (max-device-width:480px) and (min-device-width:320px) {
-
-
       #map {
         align-items: center;
         justify-content: center;
-        width: 360px;
-        height: 360px;
+        width: 100%;
+        height: 350px;
       }
 
       .content {
@@ -23,9 +25,15 @@
         margin: 0 auto;
       }
 
-      img {
-        width: 360px;
-        height: 360px;
+      .content p {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .yolo {
+        width: 100%;
+        height: 350px;
       }
     }
   </style>
@@ -34,55 +42,232 @@
 <body>
   <form action="/fileUpload" method="POST">
     <div class="content">
+      <!-- <p style="margin-top:10px">
+        <b>Chrome 브라우저는 https 환경에서만 geolocation을 지원합니다.</b> 참고해주세요.
+      </p> -->
+      <br />
       <div id="map"></div>
       <br />
       <div>
         '{{check}}'
+        <input type="button" value="reupload" onclick=window.history.go(-1);>
       </div>
+      <script>
+        ObjectName();
+      </script>
       <br />
       <div>
         {% if True %}
-        <img src="{{ url_for('static', filename='image0.jpg') }}">
+        <img class='yolo' , src="{{ url_for('static', filename='image0.jpg') }}">
         {% endif %}
       </div>
     </div>
     <script type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a4a758b850a6e1b634ab1f422b4475a1"></script>
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a4a758b850a6e1b634ab1f422b4475a1&libraries=services,clusterer,drawing"></script>
 
     <script>
-      var container = document.getElementById("map"); //지도를 담을 영역의 DOM 레퍼런스
-      var currentPosition = new kakao.maps.LatLng(myGeocode[0], myGeocode[1]);
+      var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+        mapOption = {
+          center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+          level: 5 // 지도의 확대 레벨 
+        };
 
-      var options = {
-        //지도를 생성할 때 필요한 기본 옵션
-        center: new kakao.maps.LatLng(myGeocode[0], myGeocode[1]), //지도의 중심좌표.
-        level: 3, //지도의 레벨(확대, 축소 정도)
-      };
-      var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
-      var marker = new kakao.maps.Marker({
-        map: map,
-        position: currentPosition,
-        title: "현재 위치",
-        clickable: true,
-      });
-      // 마커를 지도에 표시합니다.
-      marker.setMap(map);
+      var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
-      // 마커를 클릭했을 때 마커 위에 표시할 인포윈도우를 생성합니다
-      var iwContent = '<div style="padding:5px; font-size: 1px">현재 위치</div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-        iwRemoveable = true; // removeable 속성을 ture 로 설정하면 인포윈도우를 닫을 수 있는 x버튼이 표시됩니다
+      // HTML5의 geolocation으로 사용할 수 있는지 확인합니다 
+      if (navigator.geolocation) {
 
-      // 인포윈도우를 생성합니다
-      var infowindow = new kakao.maps.InfoWindow({
-        content: iwContent,
-        removable: iwRemoveable,
-      });
+        // GeoLocation을 이용해서 접속 위치를 얻어옵니다
+        navigator.geolocation.getCurrentPosition(function (position) {
 
-      // 마커에 클릭이벤트를 등록합니다
-      kakao.maps.event.addListener(marker, "click", function () {
-        // 마커 위에 인포윈도우를 표시합니다
+          var lat = position.coords.latitude, // 위도
+            lon = position.coords.longitude; // 경도
+
+          var locPosition = new kakao.maps.LatLng(lat, lon), // 마커가 표시될 위치를 geolocation으로 얻어온 좌표로 생성합니다
+            message = '<div style="padding:5px;">여기에 계신가요?!</div>'; // 인포윈도우에 표시될 내용입니다
+
+          // 마커와 인포윈도우를 표시합니다
+          displayMarker(locPosition, message);
+
+          // 지도에 표시할 원을 생성합니다
+          var circle = new kakao.maps.Circle({
+            center: locPosition,  // 원의 중심좌표 입니다 
+            radius: 700, // 미터 단위의 원의 반지름입니다 
+            strokeWeight: 5, // 선의 두께입니다 
+            strokeColor: '#75B8FA', // 선의 색깔입니다
+            strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+            strokeStyle: 'dashed', // 선의 스타일 입니다
+            fillColor: '#CFE7FF', // 채우기 색깔입니다
+            fillOpacity: 0.5  // 채우기 불투명도 입니다   
+          });
+
+          // 지도에 원을 표시합니다 
+          circle.setMap(map);
+
+        });
+
+      } else { // HTML5의 GeoLocation을 사용할 수 없을때 마커 표시 위치와 인포윈도우 내용을 설정합니다
+
+        var locPosition = new kakao.maps.LatLng(33.450701, 126.570667),
+          message = 'geolocation을 사용할수 없어요..'
+
+        displayMarker(locPosition, message);
+      }
+      // 지도에 마커와 인포윈도우를 표시하는 함수입니다
+      function displayMarker(locPosition, message) {
+
+        // 마커를 생성합니다
+        var marker = new kakao.maps.Marker({
+          map: map,
+          position: locPosition,
+          clickable: true,
+        });
+
+        var iwContent = message; // 인포윈도우에 표시할 내용
+        var iwRemoveable = true; // removeable 속성을 ture 로 설정하면 인포윈도우를 닫을 수 있는 x버튼이 표시됩니다
+
+        // 인포윈도우를 생성합니다
+        var infowindow = new kakao.maps.InfoWindow({
+          content: iwContent,
+          removable: iwRemoveable
+        });
+
+        // 인포윈도우를 마커위에 표시합니다 
         infowindow.open(map, marker);
-      });
+        kakao.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map, marker);
+        });
+        // 지도 중심좌표를 접속위치로 변경합니다
+        map.setCenter(locPosition);
+      }
+      // 마커를 표시할 위치와 title 객체 배열입니다 
+      var positions = [
+        {
+          content: '<div>현대고등학교 건너편</div>',
+          latlng: new kakao.maps.LatLng(37.52407074, 127.0217896)
+        },
+        {
+          content: '<div>교보타워 버스정류장(신논현역 3번출구 후면)</div>',
+          latlng: new kakao.maps.LatLng(37.5055809, 127.0242767)
+        },
+        {
+          content: '<div>논현역 7번출구</div>',
+          latlng: new kakao.maps.LatLng(37.51151657, 127.0214768)
+        },
+        {
+          content: '<div>압구정파출소 앞</div>',
+          latlng: new kakao.maps.LatLng(37.52930069, 127.0355988)
+        },
+        {
+          content: '<div>청담동 맥도날드 옆(위치)</div>',
+          latlng: new kakao.maps.LatLng(37.52361298, 127.0401764)
+        },
+        {
+          content: '<div>대치동 버거킹대치점</div>',
+          latlng: new kakao.maps.LatLng(37.4986496, 127.0593185)
+        },
+        {
+          content: '<div>선릉역3번출구</div>',
+          latlng: new kakao.maps.LatLng(37.50420761, 127.0489655)
+        },
+        {
+          content: '<div>양재역 3번출구 주변</div>',
+          latlng: new kakao.maps.LatLng(37.48515701, 127.0340729)
+        },
+        {
+          content: '<div>삼호아파트 2동 ( 간선도로)</div>',
+          latlng: new kakao.maps.LatLng(37.49375916, 127.0458984)
+        },
+        {
+          content: '<div>일원역 4~5번 출구 사이</div>',
+          latlng: new kakao.maps.LatLng(37.4833107, 127.0849381)
+        },
+        {
+          content: '<div>강남구청역 2번출구 뒤</div>',
+          latlng: new kakao.maps.LatLng(37.51681137, 127.0404739)
+        },
+        {
+          content: '<div>수서역 1번출구 앞</div>',
+          latlng: new kakao.maps.LatLng(37.48735046, 127.1009979)
+        },
+        {
+          content: '<div>언주역 6번출구앞</div>',
+          latlng: new kakao.maps.LatLng(37.50636673, 127.034523)
+        },
+        {
+          content: '<div>학동역</div>',
+          latlng: new kakao.maps.LatLng(37.51395035, 127.0301514)
+        },
+        {
+          content: '<div>영동3교 북단(우성캐릭터 앞 보도)</div>',
+          latlng: new kakao.maps.LatLng(37.48574066, 127.0510483)
+        },
+        {
+          content: '<div>청담공원앞 교차로</div>',
+          latlng: new kakao.maps.LatLng(37.51871109, 127.0508499)
+        },
+        {
+          content: '<div>봉은사역 1,2번 출구</div>',
+          latlng: new kakao.maps.LatLng(37.51430893, 127.0597)
+        },
+        {
+          content: '<div>삼성역 2번출구</div>',
+          latlng: new kakao.maps.LatLng(37.5082016, 127.0639648)
+        },
+        {
+          content: '<div>역삼1동 주민센터</div>',
+          latlng: new kakao.maps.LatLng(37.49500275, 127.0329437)
+        },
+        {
+          content: '<div>일원1동 주민센터 앞 사거리</div>',
+          latlng: new kakao.maps.LatLng(37.49073029, 127.0881119)
+        }
+      ];
+
+      var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
+
+      for (var i = 0; i < positions.length; i++) {
+
+        // 마커 이미지의 이미지 크기 입니다
+        var imageSize = new kakao.maps.Size(24, 35);
+
+        // 마커 이미지를 생성합니다    
+        var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
+        // 마커에 표시할 인포윈도우를 생성합니다 
+        var iwRemoveable = true;
+        var newinfo = new kakao.maps.InfoWindow({
+          content: positions[i].content, // 인포윈도우에 표시할 내용
+          removable: iwRemoveable
+        });
+
+        // 마커를 생성합니다
+        var newmarker = new kakao.maps.Marker({
+          map: map, // 마커를 표시할 지도
+          position: positions[i].latlng, // 마커를 표시할 위치
+          title: positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+          image: markerImage, // 마커 이미지 
+          clickable: true
+        });
+
+        // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
+        // 이벤트 리스너로는 클로저를 만들어 등록합니다 
+        // for문에서 클로저를 만들어 주지 않으면 마지막 마커에만 이벤트가 등록됩니다
+        kakao.maps.event.addListener(newmarker, 'click', makeOverListener(map, newmarker, newinfo));
+      }
+      // 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
+      function makeOverListener(map, marker, newinfo) {
+        return function () {
+          newinfo.open(map, marker);
+        };
+      }
+
+      // 인포윈도우를 닫는 클로저를 만드는 함수입니다 
+      function makeOutListener(newinfo) {
+        return function () {
+          newinfo.close();
+        };
+      }
+
     </script>
   </form>
 </body>
