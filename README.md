@@ -5,7 +5,7 @@
 [웹 사이트 바로가기](https://www.canstop.kro.kr).
 
 - **Contributors** : 이종헌, 윤영민, 최인수, 이가원, 석주애
-- **project integration management & Web FullStack Development** : 이종헌
+- **Project integration management & Web FullStack Development** : 이종헌
 - **DeepLearning model fitting & fine tuing** : 이종헌, 윤영민
 - **Image Dataset crawling & preprocessing** : 윤영민
 - **Collecting Public Data & preprocessing** : 최인수, 이가원, 석주애
