@@ -4,17 +4,17 @@
 
 [웹 사이트 바로가기](https://www.canstop.kro.kr).
 
-- Contributors : 이종헌, 윤영민, 최인수, 이가원, 석주애
-- project integration management & Web FullStack Development : 이종헌
-- DeepLearning model fitting & fine tuing : 이종헌, 윤영민
-- Image Dataset crawling : 윤영민
-- Location Data Analysis using Python, QGIS : 최인수, 이가원, 석주애
-
+- **Contributors** : 이종헌, 윤영민, 최인수, 이가원, 석주애
+- **project integration management & Web FullStack Development** : 이종헌
+- **DeepLearning model fitting & fine tuing** : 이종헌, 윤영민
+- **Image Dataset crawling & preprocessing** : 윤영민
+- **Location Data Analysis using Python, QGIS** : 최인수, 이가원, 석주애
+---------------------------------------
 ## Project Structure
 1. es_project/
   - Yolo v5 dataset
 2. images/
-  - raw image dataset
+  - raw image dataset (4 classes)
 3. static/
    1. css/
        - web stylesheets
