@@ -266,3 +266,1026 @@ Adding AutoShape...
     return render_template('index.html', check = check_msg, obj)
                                                            ^
 SyntaxError: positional argument follows keyword argument
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://192.168.200.21:5550/ (Press CTRL+C to quit)
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+163.152.207.214 - - [26/Aug/2021 15:13:49] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:13:49] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:13:49] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:13:49] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:13:49] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:13:49] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:14:38] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:14:38] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:14:39] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:14:39] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:14:39] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:14:39] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "app.py", line 98, in <module>
+    app.run(host='0.0.0.0', port='5550', debug=True, ssl_context=ssl_context)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 982, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://192.168.200.21:5550/ (Press CTRL+C to quit)
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+163.152.207.214 - - [26/Aug/2021 15:15:09] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:15:09] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:15:09] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:15:09] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:15:09] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:15:09] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:02] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:02] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:02] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:02] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:02] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:02] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:03] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:03] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:04] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:05] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:06] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:07] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:17] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:17] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:17] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:17] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:17] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:18] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:19] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.207.214 - - [26/Aug/2021 15:16:19] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:19] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:19] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:19] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:19] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:24] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:24] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:16:24] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:16:24] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:16:24] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:37] "[35m[1mGET /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 93, in upload_file
+    return render_template('index.html', check = check_msg, obj = object_list)
+NameError: name 'check_msg' is not defined
+163.152.233.13 - - [26/Aug/2021 15:16:37] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:37] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:37] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:37] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:39] "[35m[1mPOST /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 79, in upload_file
+    image = Image.open(request.files['file'].stream)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/PIL/Image.py", line 3024, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file <tempfile.SpooledTemporaryFile object at 0x7f1816a446d0>
+163.152.233.13 - - [26/Aug/2021 15:16:42] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:16:42] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:43] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:43] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:16:43] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:43] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:43] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:16:43] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:44] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:16:44] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:16:44] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:16] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:16] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:17:16] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:17] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:17] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:17:17] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:18] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:18] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:17:18] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:20] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:17:20] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:17:20] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:20] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:20] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:20] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:20] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:21] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:21] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:21] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:21] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:22] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:22] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:22] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:22] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:25] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:26] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:46] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:46] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:46] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:46] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:49] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:49] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:49] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:49] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:50] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:51] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:18:51] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:18:51] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:18:51] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:18:55] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:18:55] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:18:56] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:18:56] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:18:56] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:18:56] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:19:23] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:19:23] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:19:24] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:19:24] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:20:03] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:20:03] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:20:03] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:20:03] "GET /static/icon/test-removebg-preview.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:20:03] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:20:03] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+117.111.24.16 - - [26/Aug/2021 15:27:18] "GET /upload HTTP/1.1" 200 -
+117.111.28.59 - - [26/Aug/2021 15:27:20] "GET /upload HTTP/1.1" 200 -
+117.111.28.59 - - [26/Aug/2021 15:27:26] "[32mGET /static//icon/test-removebg-preview.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:08] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:08] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:08] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:08] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:09] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:09] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:21] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:21] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:21] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:21] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:21] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:21] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:28] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:28] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.207.214 - - [26/Aug/2021 15:28:28] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:28] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:28:28] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:28:28] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:28:32] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:28:32] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:28:32] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:28:32] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:28:55] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:28:55] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:28:55] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:28:55] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:58] "GET /upload HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:58] "GET /static/css/upload.css HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:58] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:28:59] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:29:00] "GET /upload HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:29:00] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.207.214 - - [26/Aug/2021 15:29:00] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.207.214 - - [26/Aug/2021 15:29:01] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+Saved 1 image to 'static'
+121.160.108.131 - - [26/Aug/2021 15:29:17] "POST /fileUpload HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:29:17] "GET /static/css/result.css HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:29:17] "GET /static/image0.jpg HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:29:18] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+121.160.108.131 - - [26/Aug/2021 15:29:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:29:19] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:19] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:29:19] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:29:19] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+Saved 1 image to 'static'
+163.152.233.13 - - [26/Aug/2021 15:29:25] "POST /fileUpload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:26] "GET /static/css/result.css HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:29:26] "GET /static/image0.jpg HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:32] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:33] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:34] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:35] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:35] "GET /static/css/upload.css HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:35] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:35] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:36] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:38] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:39] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:39] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:31:39] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:39] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:39] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:31:39] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+218.52.139.131 - - [26/Aug/2021 15:32:16] "GET /upload HTTP/1.1" 200 -
+218.52.139.131 - - [26/Aug/2021 15:32:16] "GET /static/css/upload.css HTTP/1.1" 200 -
+218.52.139.131 - - [26/Aug/2021 15:32:16] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+218.52.139.131 - - [26/Aug/2021 15:32:16] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+218.52.139.131 - - [26/Aug/2021 15:32:16] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+218.52.139.131 - - [26/Aug/2021 15:32:16] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:53] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:53] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:53] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:33:53] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:33:55] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:01] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:01] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:01] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:34:01] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:15] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:15] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:15] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:34:15] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:16] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:16] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:34:16] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:16] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:19] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:37] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:56] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:34:56] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:34:56] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:34:56] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:40:47] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:40:47] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:47] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:40:47] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:40:48] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:02] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:03] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:41:03] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:41:03] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:41:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:41:04] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+28B451D3-6AFC-4E1D-912A-5B4AF19696BB.jpeg
+1629893570410.png
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+True
+8D50CA8F-E92C-4028-AA43-F5721DF4A9D8.jpeg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+True
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://192.168.200.21:5550/ (Press CTRL+C to quit)
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[32mGET /static//icon/favicon-32x32.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[32mGET /static//icon/favicon-96x96.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:43:44] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:43:50] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:43:50] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:43:50] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:43:50] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:13] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:14] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[32mGET /static//icon/favicon.ico HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[32mGET /static//icon/favicon.ico HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:15] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[32mGET /static//icon/favicon.ico HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[32mGET /static//icon/favicon.ico HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:47:29] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:48:42] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:48:42] "[32mGET /static//icon/testtest.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:48:42] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:48:42] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:02] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:02] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:49:02] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[32mGET /static//icon/favicon-16x16.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[32mGET /static//icon/apple-icon-180x180.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[32mGET /static//icon/apple-icon-152x152.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[32mGET /static//icon/apple-icon-144x144.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[32mGET /static//icon/apple-icon-120x120.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "[32mGET /static//icon/apple-icon-114x114.png HTTP/1.1[0m" 308 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:06] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:26] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:26] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:49:26] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:49:27] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:50:07] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:50:07] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:50:07] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:50:26] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:50:27] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:09] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:09] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:51:09] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:51:10] "GET /upload HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:10] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:51:10] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+163.152.233.13 - - [26/Aug/2021 15:51:11] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 224 layers, 7062001 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+Traceback (most recent call last):
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 23, in <module>
+    def get_prediction(img_bytes):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/helpers.py", line 275, in url_for
+    "Attempted to generate a URL without the application context being"
+RuntimeError: Attempted to generate a URL without the application context being pushed. This has to be executed when application context is available.
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-24 torch 1.9.0+cu102 CPU
+
+Traceback (most recent call last):
+  File "/home/dkjh/.cache/torch/hub/ultralytics_yolov5_master/hubconf.py", line 46, in _create
+    model = attempt_load(path, map_location=device)  # download/load FP32 model
+  File "/home/dkjh/.cache/torch/hub/ultralytics_yolov5_master/models/experimental.py", line 94, in attempt_load
+    ckpt = torch.load(attempt_download(w), map_location=map_location)  # load
+  File "/home/dkjh/.local/lib/python3.7/site-packages/torch/serialization.py", line 608, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/torch/serialization.py", line 777, in _legacy_load
+    magic_number = pickle_module.load(f, **pickle_load_args)
+_pickle.UnpicklingError: invalid load key, 'v'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "app.py", line 14, in <module>
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path='v5x_e200_best_0830.pt')  # default
+  File "/home/dkjh/.local/lib/python3.7/site-packages/torch/hub.py", line 364, in load
+    model = _load_local(repo_or_dir, model, *args, **kwargs)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/torch/hub.py", line 393, in _load_local
+    model = entry(*args, **kwargs)
+  File "/home/dkjh/.cache/torch/hub/ultralytics_yolov5_master/hubconf.py", line 70, in custom
+    return _create(path, autoshape=autoshape, verbose=verbose, device=device)
+  File "/home/dkjh/.cache/torch/hub/ultralytics_yolov5_master/hubconf.py", line 65, in _create
+    raise Exception(s) from e
+Exception: Cache may be out of date, try `force_reload=True`. See https://github.com/ultralytics/yolov5/issues/36 for help.

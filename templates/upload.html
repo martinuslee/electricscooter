@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Canstop</title>
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for('static', filename='/icon/apple-icon-57x57.png')}}">
-  <link rel="apple-touch-icon" sizes="60x60" href="{{ url_for('static', filename='/icon/apple-icon-60x60.png')}}">
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='/icon/apple-icon-72x72.png')}}">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='/icon/apple-icon-76x76.png')}}">
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='/icon/apple-icon-114x114.png')}}">
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ url_for('static', filename='/icon/apple-icon-120x120.png')}}">
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='/icon/apple-icon-144x144.png')}}">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for('static', filename='/icon/apple-icon-152x152.png')}}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='/icon/apple-icon-180x180.png')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/upload.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='icon/favicon.ico')}}" type="image/x-icon">
+  <link rel="icon" href="{{ url_for('static', filename='icon/favicon.ico')}}" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for('static', filename='icon/apple-icon-57x57.png')}}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ url_for('static', filename='icon/apple-icon-60x60.png')}}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='icon/apple-icon-72x72.png')}}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='icon/apple-icon-76x76.png')}}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='icon/apple-icon-114x114.png')}}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ url_for('static', filename='icon/apple-icon-120x120.png')}}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='icon/apple-icon-144x144.png')}}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for('static', filename='icon/apple-icon-152x152.png')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='icon/apple-icon-180x180.png')}}">
+  <link rel="apple-touch-icon-precomposed" href="{{ url_for('static', filename='icon/apple-icon-precomposed.png')}}">
   <link rel="icon" type="image/png" sizes="192x192"
     href="{{ url_for('static', filename='/icon/android-icon-192x192.png')}}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='/icon/favicon-32x32.png')}}">
-  <link rel="icon" type="image/png" sizes="96x96" href="{{ url_for('static', filename='/icon/favicon-96x96.png')}}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='/icon/favicon-16x16.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='icon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ url_for('static', filename='icon/favicon-96x96.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='icon/favicon-16x16.png')}}">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -34,20 +39,22 @@
       $(".upload-name").val(fileName);
     });
   </script>
+  
 </head>
 
 <body>
   <form action="https://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
-    <div class="filebox">
-      <img class='yolo' , src="{{ url_for('static', filename='/icon/test-removebg-preview.png') }}" height="200"
-        width="350"><br />
-      <p align="center"><b>데이터청년캠퍼스 4팀 Canstop(가제)</b></p><br />
-      <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
-      <label for="file">업로드</label>
-      <input type="file" id="file" name="file">
-      <input class="submit" type="submit" /><br />
-      <p align="center"><b>이용 방법</b></p><br />
-      <p>업로드 버튼을 터치하여 사진 촬영 또는 갤러리에서 사진 파일 선택 후 제출 버튼을 터치해주세요.</p><br />
+    <div class="">
+      <div class="filebox">
+        <img class='yolo' , src="{{ url_for('static', filename='icon/testtest.png') }}" height="150" width="150"><br />
+        <p align="center"><b>데이터청년캠퍼스 4팀 Canstop(가제)</b></p><br />
+        <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
+        <label for="file">업로드</label>
+        <input type="file" id="file" name="file">
+        <input class="submit" type="submit" /><br />
+        <p align="center"><b>이용 방법</b></p><br />
+        <p >업로드 버튼을 터치하여 사진 촬영 또는 갤러리에서 사진 파일 선택 후 제출 버튼을 터치해주세요.</p><br />
+      </div>
     </div>
   </form>
 </body>

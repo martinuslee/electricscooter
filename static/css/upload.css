@@ -1,6 +1,18 @@
+@font-face {
+  font-family: 'IM_Hyemin-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @media only screen and (max-device-width:480px) and (min-device-width:320px) {
-
+  div#loading {
+    width: 35px;
+    height: 35px;
+    display: none;
+    background: url(/static/loadingimage.gif) no-repeat;
+    cursor: wait;
+  }
   div {
     margin: 0;
     position: absolute;
@@ -8,7 +20,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
+  p {
+    font-family: 'IM_Hyemin-Bold';
+  }
   /* 모바일 */
   .filebox input[type="file"] {
     position: absolute;
@@ -18,7 +32,6 @@
     overflow: hidden;
     border: 0;
   }
-
   .filebox label {
     display: flex;
     align-items: center;
@@ -31,7 +44,6 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
   }
-
   /* named upload */
   .filebox .upload-name {
     display: inline-block;
@@ -43,7 +55,6 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
   }
-
   .submit {
     display: block;
     padding: 20px 40px;
@@ -55,14 +66,13 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
   }
-
   img {
     display: block;
     margin: 0px auto
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   div {
     margin: 0;
     position: absolute;
@@ -70,7 +80,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
   /* 모바일 */
   .filebox input[type="file"] {
     position: absolute;
@@ -80,7 +89,6 @@
     overflow: hidden;
     border: 0;
   }
-
   .filebox label {
     display: flex;
     align-items: center;
@@ -93,7 +101,6 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
   }
-
   /* named upload */
   .filebox .upload-name {
     display: inline-block;
@@ -105,7 +112,6 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
   }
-
   .submit {
     display: block;
     padding: 20px 40px;
@@ -117,7 +123,6 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
   }
-
   img {
     display: block;
     margin: 0px auto
