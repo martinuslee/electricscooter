@@ -1,13 +1,12 @@
-import io
-import os
-import requests
+
 import torch
 from flask import Flask, jsonify, url_for, render_template, request, redirect, send_from_directory
 from werkzeug.utils import secure_filename
-from GPSPhoto import gpsphoto
 import ssl
 from PIL import Image
 from PIL.ExifTags import TAGS,GPSTAGS
+#from GPSPhoto import gpsphoto
+#import io, os, requests
 
 app = Flask(__name__)
 
