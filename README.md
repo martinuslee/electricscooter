@@ -1,14 +1,46 @@
 # electricscooter
-Electric Scooter Image Dataset
 
-## es_project 
-Yolo v5 dataset
+**공유 전동 킥보드 불법 주차 예방 및 주차 입지 추천 웹 서비스**
 
-## images
-raw image dataset
+[웹 사이트 바로가기](https://www.canstop.kro.kr).
 
-## electricScooter.ipynb
+- Contributors : 이종헌, 윤영민, 최인수, 이가원, 석주애
+- project integration management & Web FullStack Development : 이종헌
+- DeepLearning model fitting & fine tuing : 이종헌, 윤영민
+- Image Dataset crawling : 윤영민
+- Location Data Analysis using Python, QGIS : 최인수, 이가원, 석주애
 
-Yolo v5 Jupyter notebook
+## Project Structure
+1. es_project/
+  - Yolo v5 dataset
+2. images/
+  - raw image dataset
+3. static/
+   1. css/
+       - web stylesheets
+   2. icon/
+       - icon image files
+   3. models/
+       - Yolo v5 custom weight models
+   4. photos/
+       - user upload images
+   5. results/
+       - object detected image
+4. runs/
+ - test image data results
+5. templates/
+- html files
+6. yolov5/
+- yolov5 repository
+7. app.py
+- flask web server code
+8. electricScooter.ipynb
+- Yolo v5 model training Jupyter notebook code.
+9. result_es.ipynb
+- Yolo v5 model detect code with cv2
+
+
+
+
 
 
