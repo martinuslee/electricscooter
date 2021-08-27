@@ -2,7 +2,7 @@
 
 **공유 전동 킥보드 불법 주차 예방 및 주차 입지 추천 웹 서비스**
 
-[웹 사이트 바로가기](https://www.canstop.kro.kr).
+[웹 사이트 바로가기](https://1.222.84.186:5550/upload).
 
 - **Contributors** : 이종헌, 윤영민, 최인수, 이가원, 석주애
 - **Project integration management & Web FullStack Development** : 이종헌
