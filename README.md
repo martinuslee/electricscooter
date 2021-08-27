@@ -4,8 +4,8 @@
 
 <table style="border: 1px solid transparent" align="center">
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/70839563/131092082-efd87497-86ca-4adc-a17d-fe35324c8bd9.png" width="30%"/><td>
-    <td><img src="https://user-images.githubusercontent.com/70839563/131092097-137abb99-8baf-455c-8b77-eb17768476b5.png" width="30%"/><td>
+    <td><img src="https://user-images.githubusercontent.com/70839563/131092082-efd87497-86ca-4adc-a17d-fe35324c8bd9.png" width="30%"/></td>
+    <td><img src="https://user-images.githubusercontent.com/70839563/131092097-137abb99-8baf-455c-8b77-eb17768476b5.png" width="30%"/></td>
   </tr>
 </table>
 
