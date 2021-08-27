@@ -2,8 +2,8 @@
 
 **공유 전동 킥보드 불법 주차 예방 및 주차 입지 추천 웹 서비스**
 
-<img src="https://user-images.githubusercontent.com/70839563/131092082-efd87497-86ca-4adc-a17d-fe35324c8bd9.png" width="200" height="200" style="float: left"/>
-<img src="https://user-images.githubusercontent.com/70839563/131092097-137abb99-8baf-455c-8b77-eb17768476b5.png" width="200" height="200" style="float: left"/>
+<img src="https://user-images.githubusercontent.com/70839563/131092082-efd87497-86ca-4adc-a17d-fe35324c8bd9.png" width="50%" height="50%" style="float: left"/>
+<img src="https://user-images.githubusercontent.com/70839563/131092097-137abb99-8baf-455c-8b77-eb17768476b5.png" width="50%" height="50%" style="float: left"/>
      
 [웹 사이트 바로가기](https://1.222.84.186:5550/upload).
 
