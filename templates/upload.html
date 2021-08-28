@@ -2,10 +2,36 @@
 <html>
 
 <head>
+  <title>Canstop</title>
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/upload.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='icon/favicon.ico')}}" type="image/x-icon">
+  <link rel="icon" href="{{ url_for('static', filename='icon/favicon.ico')}}" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for('static', filename='icon/apple-icon-57x57.png')}}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ url_for('static', filename='icon/apple-icon-60x60.png')}}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='icon/apple-icon-72x72.png')}}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='icon/apple-icon-76x76.png')}}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='icon/apple-icon-114x114.png')}}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ url_for('static', filename='icon/apple-icon-120x120.png')}}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='icon/apple-icon-144x144.png')}}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for('static', filename='icon/apple-icon-152x152.png')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='icon/apple-icon-180x180.png')}}">
+  <link rel="apple-touch-icon-precomposed" href="{{ url_for('static', filename='icon/apple-icon-precomposed.png')}}">
+  <link rel="icon" type="image/png" sizes="192x192"
+    href="{{ url_for('static', filename='/icon/android-icon-192x192.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='icon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ url_for('static', filename='icon/favicon-96x96.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='icon/favicon-16x16.png')}}">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+    integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script>
     $("#file").on('change', function () {
@@ -13,72 +39,44 @@
       $(".upload-name").val(fileName);
     });
   </script>
-  <style>
-    @media only screen and (max-device-width:480px) and (min-device-width:320px) {
-
-      div {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-      /* 모바일 */
-      .filebox input[type="file"] {
-        position: absolute;
-        width: 0;
-        height: 0;
-        padding: 0;
-        overflow: hidden;
-        border: 0;
-      }
-
-      .filebox label {
-        display: inline-block;
-        padding: 20px 40px;
-        color: #999;
-        vertical-align: middle;
-        background-color: #fdfdfd;
-        cursor: pointer;
-        border: 1px solid #ebebeb;
-        border-radius: 5px;
-      }
-
-      /* named upload */
-      .filebox .upload-name {
-        display: inline-block;
-        height: 35px;
-        font-size: 18px;
-        padding: 0 10px;
-        vertical-align: middle;
-        background-color: #f5f5f5;
-        border: 1px solid #ebebeb;
-        border-radius: 5px;
-      }
-
-      .submit {
-        display: block;
-        padding: 20px 40px;
-        color: #999;
-        margin: 0 auto;
-        margin-top: 10px;
-        background-color: #fdfdfd;
-        cursor: pointer;
-        border: 1px solid #ebebeb;
-        border-radius: 5px;
-      }
-    }
-  </style>
 </head>
 
 <body>
-  <form action="http://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
-    <div class="filebox">
-      <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
-      <label for="file">업로드</label>
-      <input type="file" id="file" name="file">
-      <input class="submit" type="submit" />
+  <form action="https://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
+    <div class="content">
+      <div class="filebox">
+        <img class='yolo' , src="{{ url_for('static', filename='icon/testtest.png') }}" height="150" width="150"
+          onclick="window.location='https://1.222.84.186:5550/upload';"><br />
+        <p align="center" style="font-style: italic; font-size: larger;"><b>Canstop</b></p><br />
+        <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
+        <label for="file">사진 촬영</label>
+        <input type="file" id="file" name="file" accept="image/*" capture="camera">
+        <!-- <input type="file" id="file" name="file"> -->
+        <input class="submit" type="submit"/>
+        <p align="center"><b>이용 방법</b></p>
+        <p>사진 촬영 버튼을 터치하여 주차한 사진을 촬영한 뒤 제출 버튼을 터치해주세요.</p><br />
+        <table
+          style="margin-left: auto; margin-right: auto; margin-top: -20px; margin-bottom: -50px; border-spacing: 12px;">
+          <tr>
+            <td>
+              <img src="https://dataonair.or.kr/bigjob/wp-content/uploads/2019/04/main_info01.png" width="75"
+                onclick="window.location='https://www.msit.go.kr/index.do';">
+            </td>
+            <td>
+              <img src="http://www.the-tech.co.kr/data/photos/20210413/art_16172597747718_5b4884.png" width="70"
+                onclick="window.location='https://www.kdata.or.kr';">
+            </td>
+            <td>
+              <img src="https://dataonair.or.kr/bigjob/wp-content/uploads/2021/07/bigjob2021_maintext.png" width="70"
+                style="background-color: #7339cb;" onclick="window.location='https://dataonair.or.kr/bigjob/';">
+            </td>
+            <td>
+              <img src="https://blog.kakaocdn.net/dn/d181x7/btqwAyGDhhw/lslY3UhzUJHBqAYcFYv5cK/img.jpg" width="70"
+                onclick="window.location='http://www.dongguk.ac.kr';" />
+            </td>
+          <tr>
+        </table>
+      </div>
     </div>
   </form>
 </body>
