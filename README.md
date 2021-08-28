@@ -66,8 +66,7 @@ To install PyTorch see https://pytorch.org/get-started/locally/.
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/70839563/131221688-541cc682-8d54-4040-9c3c-b7b20b9bad9f.png">
 
-<img width="933" alt="image" src="https://user-images.githubusercontent.com/70839563/131221774-92fef9a2-a3e4-4582-860c-fb8d11f9c20a.png">
+## Project Development Environment
 
-
-
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/70839563/131221791-8f681506-1163-42a9-bef1-27d05ac1e906.png">
 
