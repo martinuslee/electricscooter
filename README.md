@@ -13,7 +13,7 @@
 - **Image Dataset crawling & preprocessing** : 윤영민
 - **Collecting Public Data & preprocessing** : 최인수, 이가원, 석주애
 - **Location Data Analysis using Python, QGIS** : 최인수, 이가원, 석주애
-- **Project Mentor** : 김상수
+
 ---------------------------------------
 
 ## Configuration
@@ -23,6 +23,7 @@ pip3 install torch #reference https://pytorch.org/get-started/locally/
 pip install -qr https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt 
 ```
 Start from a Python>=3.8 environment with PyTorch>=1.7 installed. 
+
 To install PyTorch see https://pytorch.org/get-started/locally/.
 
 ---------------------------------------
@@ -68,5 +69,5 @@ To install PyTorch see https://pytorch.org/get-started/locally/.
 
 ## Project Development Environment
 
-<img width="947" alt="image" src="https://user-images.githubusercontent.com/70839563/131221791-8f681506-1163-42a9-bef1-27d05ac1e906.png">
+<img width="933" alt="image" src="https://user-images.githubusercontent.com/70839563/131221837-eb2357a1-8169-4f88-aaf5-9fe3fb9dff79.png">
 
