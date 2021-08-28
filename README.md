@@ -15,6 +15,17 @@
 - **Location Data Analysis using Python, QGIS** : 최인수, 이가원, 석주애
 - **Project Mentor** : 김상수
 ---------------------------------------
+
+## Configuration
+```
+pip3 install flask 
+pip3 install torch
+pip install -qr https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt 
+```
+Start from a Python>=3.8 environment with PyTorch>=1.7 installed. 
+To install PyTorch see https://pytorch.org/get-started/locally/. To install YOLOv5 dependencies:
+
+---------------------------------------
 ## Project Structure
 1. es_project/
   - Yolo v5 dataset
@@ -50,7 +61,10 @@
 10. result_es.ipynb
 - Yolo v5 model detect code with cv2
 
+---------------------------------------
+## Activity Diagram
 
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/70839563/131221688-541cc682-8d54-4040-9c3c-b7b20b9bad9f.png">
 
 
 
