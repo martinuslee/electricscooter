@@ -7,11 +7,13 @@
 [웹 사이트 바로가기](https://1.222.84.186:5550/upload).
 
 - **Contributors** : 이종헌, 윤영민, 최인수, 이가원, 석주애
+- **Team Leader** : 이종헌
 - **Project integration management & Web FullStack Development** : 이종헌
 - **DeepLearning model fitting & fine tuing** : 이종헌, 윤영민
 - **Image Dataset crawling & preprocessing** : 윤영민
 - **Collecting Public Data & preprocessing** : 최인수, 이가원, 석주애
 - **Location Data Analysis using Python, QGIS** : 최인수, 이가원, 석주애
+- **Project Mentor** : 김상수
 ---------------------------------------
 ## Project Structure
 1. es_project/
@@ -31,15 +33,21 @@
        - object detected image
 4. runs/
  - test image data results
-5. templates/
+5. analysis/
+ - Open Data Analysis
+ 1. code/ 
+       - source code
+ 3. rawdata/
+       - raw open data files
+6. templates/
 - html files
-6. yolov5/
+7. yolov5/
 - yolov5 repository
-7. app.py
+8. app.py
 - flask web server code
-8. electricScooter.ipynb
+9. electricScooter.ipynb
 - Yolo v5 model training Jupyter notebook code.
-9. result_es.ipynb
+10. result_es.ipynb
 - Yolo v5 model detect code with cv2
 
 
