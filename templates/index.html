@@ -7,10 +7,9 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   <script>
-    var myobj = '검출된 객체 : {{ obj }} <br/>';
+    var myobj = '<p>검출된 객체 : {{ obj }}</p>';
     function ObjectName() {
       document.getElementById("i_result").innerHTML = myobj;
-      //document.write('검출된 객체 : ' + myobj + '<br>');
     }
   </script>
 </head>
@@ -23,21 +22,20 @@
       </p> -->
       <br />
       <div id="map"></div>
-      <br />
       <div class="info">
-        <span>'{{check}}'</span><br />
-        <input type="button" value="reupload" onclick=window.history.go(-1);><br />
+        <p>'{{check}}'</p>
+        <input class="btn" type="button" value="reupload" onclick=window.history.go(-1);><br />
+        <input class="btn" type="button" value="즉시견인구역 정보" onclick="location.href='/info'" ;><br />
         <span id='i_result'>
           <script>
             ObjectName();
           </script>
-          <br />
         </span>
       </div>
-      <br />
       <div>
         {% if True %}
-        <img class='yolo' , src="{{ url_for('static', filename='results/image0.jpg') }}">
+        <img class='yolo' , src="{{ url_for('static', filename='results/image0.jpg') }}" />
+        <!-- <img class="yolo" src="{{img}}" /> -->
         {% endif %}
       </div>
     </div>

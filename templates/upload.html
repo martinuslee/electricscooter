@@ -39,21 +39,43 @@
       $(".upload-name").val(fileName);
     });
   </script>
-  
 </head>
 
 <body>
   <form action="https://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
-    <div class="">
+    <div class="content">
       <div class="filebox">
-        <img class='yolo' , src="{{ url_for('static', filename='icon/testtest.png') }}" height="150" width="150"><br />
-        <p align="center"><b>데이터청년캠퍼스 4팀 Canstop(가제)</b></p><br />
+        <img class='yolo' , src="{{ url_for('static', filename='icon/testtest.png') }}" height="150" width="150"
+          onclick="window.location='https://1.222.84.186:5550/upload';"><br />
+        <p align="center" style="font-style: italic; font-size: larger;"><b>Canstop</b></p><br />
         <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
-        <label for="file">업로드</label>
+        <label for="file">사진 촬영</label>
+        <!-- <input type="file" id="file" name="file" accept="image/*" capture="camera"> -->
         <input type="file" id="file" name="file">
-        <input class="submit" type="submit" /><br />
-        <p align="center"><b>이용 방법</b></p><br />
-        <p >업로드 버튼을 터치하여 사진 촬영 또는 갤러리에서 사진 파일 선택 후 제출 버튼을 터치해주세요.</p><br />
+        <input class="submit" type="submit"/>
+        <p align="center"><b>이용 방법</b></p>
+        <p>사진 촬영 버튼을 터치하여 주차한 사진을 촬영한 뒤 제출 버튼을 터치해주세요.</p><br />
+        <table
+          style="margin-left: auto; margin-right: auto; margin-top: -20px; margin-bottom: -50px; border-spacing: 12px;">
+          <tr>
+            <td>
+              <img src="https://dataonair.or.kr/bigjob/wp-content/uploads/2019/04/main_info01.png" width="75"
+                onclick="window.location='https://www.msit.go.kr/index.do';">
+            </td>
+            <td>
+              <img src="http://www.the-tech.co.kr/data/photos/20210413/art_16172597747718_5b4884.png" width="70"
+                onclick="window.location='https://www.kdata.or.kr';">
+            </td>
+            <td>
+              <img src="https://dataonair.or.kr/bigjob/wp-content/uploads/2021/07/bigjob2021_maintext.png" width="70"
+                style="background-color: #7339cb;" onclick="window.location='https://dataonair.or.kr/bigjob/';">
+            </td>
+            <td>
+              <img src="https://blog.kakaocdn.net/dn/d181x7/btqwAyGDhhw/lslY3UhzUJHBqAYcFYv5cK/img.jpg" width="70"
+                onclick="window.location='http://www.dongguk.ac.kr';" />
+            </td>
+          <tr>
+        </table>
       </div>
     </div>
   </form>

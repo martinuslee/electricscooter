@@ -6,14 +6,7 @@
 }
 
 @media only screen and (max-device-width:480px) and (min-device-width:320px) {
-  div#loading {
-    width: 35px;
-    height: 35px;
-    display: none;
-    background: url(/static/loadingimage.gif) no-repeat;
-    cursor: wait;
-  }
-  div {
+  div.filebox {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -22,6 +15,12 @@
   }
   p {
     font-family: 'IM_Hyemin-Bold';
+  }
+  .data-logo {
+    position: absolute;
+    top:68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   /* 모바일 */
   .filebox input[type="file"] {

@@ -1289,3 +1289,187 @@ Traceback (most recent call last):
   File "/home/dkjh/.cache/torch/hub/ultralytics_yolov5_master/hubconf.py", line 65, in _create
     raise Exception(s) from e
 Exception: Cache may be out of date, try `force_reload=True`. See https://github.com/ultralytics/yolov5/issues/36 for help.
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-27 torch 1.9.0 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://0.0.0.0:5550/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-27 torch 1.9.0 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 157-966-677
+223.39.252.110 - - [27/Aug/2021 18:07:56] "[37mGET /upload HTTP/1.1[0m" 200 -
+223.39.252.110 - - [27/Aug/2021 18:07:56] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+223.39.252.110 - - [27/Aug/2021 18:07:56] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+223.39.252.110 - - [27/Aug/2021 18:08:17] "[37mGET /upload HTTP/1.1[0m" 200 -
+223.39.252.110 - - [27/Aug/2021 18:08:19] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.110 - - [27/Aug/2021 18:08:20] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+106.101.3.18 - - [27/Aug/2021 18:08:28] "[37mGET /upload HTTP/1.1[0m" 200 -
+106.101.3.18 - - [27/Aug/2021 18:08:30] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+106.101.3.18 - - [27/Aug/2021 18:08:32] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+223.39.252.110 - - [27/Aug/2021 18:08:45] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+223.39.252.110 - - [27/Aug/2021 18:08:46] "[37mGET /static/css/result.css HTTP/1.1[0m" 200 -
+223.39.252.110 - - [27/Aug/2021 18:08:48] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+106.101.3.18 - - [27/Aug/2021 18:22:42] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:13:50] "[33mGET / HTTP/1.1[0m" 404 -
+221.158.178.84 - - [27/Aug/2021 19:23:11] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:23:11] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:23:11] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:23:12] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:23:12] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:23:12] "[37mGET /static/icon/favicon-32x32.png HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:23:17] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+221.158.178.84 - - [27/Aug/2021 19:24:08] "[37mGET /upload HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+221.158.178.84 - - [27/Aug/2021 19:24:29] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:24:29] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+221.158.178.84 - - [27/Aug/2021 19:24:29] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:32:53] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:32:54] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:32:55] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:34] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:34] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:34] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+121.160.108.131 - - [27/Aug/2021 19:33:35] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:37] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:37] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:39] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+Saved 1 image to 'static/results'
+121.160.108.131 - - [27/Aug/2021 19:33:51] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:51] "[37mGET /static/css/result.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:51] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+121.160.108.131 - - [27/Aug/2021 19:33:56] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:56] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:56] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:33:56] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+121.160.108.131 - - [27/Aug/2021 19:34:05] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:05] "[37mGET /static/css/result.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:05] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:39] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:39] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:39] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:39] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+121.160.108.131 - - [27/Aug/2021 19:34:50] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:50] "[37mGET /static/css/result.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:34:50] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:34:55] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:35:05] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:35:08] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:35:24] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:35:25] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:35:25] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:35:25] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+121.160.108.131 - - [27/Aug/2021 19:35:33] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:35:34] "[37mGET /static/css/result.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:35:34] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:36:11] "[37mGET /upload HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:36:11] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:36:11] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+121.160.108.131 - - [27/Aug/2021 19:36:11] "[37mGET /static/icon/favicon.ico HTTP/1.1[0m" 200 -
+221.158.178.84 - - [27/Aug/2021 19:37:12] "[37mGET /upload HTTP/1.1[0m" 200 -
+52.16.137.212 - - [27/Aug/2021 20:03:07] "[37mGET /upload HTTP/1.1[0m" 200 -
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+ * Detected change in '/home/dkjh/datacampus/electricscooter/app.py', reloading
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+image.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+KakaoTalk_20210827_172451628_04.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+False
+KakaoTalk_20210827_172451628.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+True
+KakaoTalk_20210827_172451628_02.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+False
+1.jpg
+['electric_scooter', 'brailleblock', 'crosswalk', 'fireplug']
+False
+ * Restarting with inotify reloader
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 28
+    results.
+           ^
+SyntaxError: invalid syntax
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-27 torch 1.9.0 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://0.0.0.0:5550/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-27 torch 1.9.0 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 138-183-812
+221.158.178.71 - - [28/Aug/2021 01:27:44] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:27:44] "[37mGET /static/css/upload.css HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:27:44] "[37mGET /static/icon/testtest.png HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:16] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:18] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:18] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:31] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:31] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:37] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:45] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:29:49] "[37mGET /upload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:30:26] "[37mGET /upload HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+221.158.178.71 - - [28/Aug/2021 01:31:29] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:31:29] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+221.158.178.71 - - [28/Aug/2021 01:31:29] "[37mGET /static/results/image0.jpg HTTP/1.1[0m" 200 -
+Saved 1 image to 'static/results'
+221.158.178.71 - - [28/Aug/2021 01:31:48] "[37mPOST /fileUpload HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:31:53] "[37mGET /info HTTP/1.1[0m" 200 -
+221.158.178.71 - - [28/Aug/2021 01:32:02] "[37mGET /info HTTP/1.1[0m" 200 -
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-27 torch 1.9.0 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "app.py", line 102, in <module>
+    app.run(host='0.0.0.0', port='5550', debug=True, ssl_context=ssl_context)
+  File "/home/dkjh/anaconda3/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/dkjh/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use

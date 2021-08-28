@@ -1,4 +1,3 @@
-
 import torch
 from flask import Flask, jsonify, url_for, render_template, request, redirect, send_from_directory
 from werkzeug.utils import secure_filename
