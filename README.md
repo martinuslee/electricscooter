@@ -19,11 +19,11 @@
 ## Configuration
 ```
 pip3 install flask 
-pip3 install torch
+pip3 install torch #reference https://pytorch.org/get-started/locally/ 
 pip install -qr https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt 
 ```
 Start from a Python>=3.8 environment with PyTorch>=1.7 installed. 
-To install PyTorch see https://pytorch.org/get-started/locally/. To install YOLOv5 dependencies:
+To install PyTorch see https://pytorch.org/get-started/locally/.
 
 ---------------------------------------
 ## Project Structure
@@ -65,6 +65,8 @@ To install PyTorch see https://pytorch.org/get-started/locally/. To install YOLO
 ## Activity Diagram
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/70839563/131221688-541cc682-8d54-4040-9c3c-b7b20b9bad9f.png">
+
+<img width="933" alt="image" src="https://user-images.githubusercontent.com/70839563/131221774-92fef9a2-a3e4-4582-860c-fb8d11f9c20a.png">
 
 
 
