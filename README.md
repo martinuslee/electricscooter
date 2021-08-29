@@ -49,8 +49,11 @@ To install PyTorch see https://pytorch.org/get-started/locally/.
  - Open Data Analysis
  1. code/ 
        - source code
- 3. rawdata/
-       - raw open data files
+ 2. data/
+       - data files for parking space recommendation
+       1.rawdata/
+       2.processed data/
+       3.QGIS/
 6. templates/
 - html files
 7. yolov5/
@@ -58,9 +61,9 @@ To install PyTorch see https://pytorch.org/get-started/locally/.
 8. app.py
 - flask web server code
 9. electricScooter.ipynb
-- Yolo v5 model training Jupyter notebook code.
+- Yolo v5 model training Jupyter notebook code. #해당 코드는 사용자의 구글 드라이브와 코랩환경에서 작성하여 실행시 개인실행환경문제로 실행이 불가능할 수 있습니다. 
 10. result_es.ipynb
-- Yolo v5 model detect code with cv2
+- Yolo v5 model detect code with cv2 #해당 코드는 사용자의 구글 드라이브와 코랩환경에서 작성하여 실행시 개인실행환경문제로 실행이 불가능할 수 있습니다. 
 
 ---------------------------------------
 ## Activity Diagram
