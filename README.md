@@ -51,8 +51,11 @@ To install PyTorch see https://pytorch.org/get-started/locally/.
        - source code
  2. data/
        - data files for parking space recommendation
+       
        1.rawdata/
+       
        2.processed data/
+      
        3.QGIS/
 6. templates/
 - html files
