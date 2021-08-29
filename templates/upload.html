@@ -26,14 +26,15 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <!-- JQUERY -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
     integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
   <script>
+    //upload file input css and JQuery
     $("#file").on('change', function () {
       var fileName = $("#file").val();
       $(".upload-name").val(fileName);
@@ -45,13 +46,13 @@
   <form action="https://1.222.84.186:5550/fileUpload" method="POST" enctype="multipart/form-data">
     <div class="content">
       <div class="filebox">
-        <img class='yolo' , src="{{ url_for('static', filename='icon/testtest.png') }}" height="150" width="150"
+        <img class='yolo', src="{{ url_for('static', filename='icon/testtest.png') }}" height="150" width="150"
           onclick="window.location='https://1.222.84.186:5550/upload';"><br />
         <p align="center" style="font-style: italic; font-size: larger;"><b>Canstop</b></p><br />
         <!-- <input class="upload-name" value="파일 선택" placeholder="파일 선택"> -->
         <label for="file">사진 촬영</label>
-        <input type="file" id="file" name="file" accept="image/*" capture="camera">
-        <!-- <input type="file" id="file" name="file"> -->
+        <!-- <input type="file" id="file" name="file" accept="image/*" capture="camera"> -->
+        <input type="file" id="file" name="file">
         <input class="submit" type="submit"/>
         <p align="center"><b>이용 방법</b></p>
         <p>사진 촬영 버튼을 터치하여 주차한 사진을 촬영한 뒤 제출 버튼을 터치해주세요.</p><br />

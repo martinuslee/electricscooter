@@ -1473,3 +1473,268 @@ Traceback (most recent call last):
   File "/home/dkjh/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
     s.bind(server_address)
 OSError: [Errno 98] Address already in use
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-28 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://192.168.200.21:5550/ (Press CTRL+C to quit)
+ * Restarting with stat
+Using cache found in /home/dkjh/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2021-8-28 torch 1.9.0+cu102 CPU
+
+Fusing layers... 
+[W NNPACK.cpp:79] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 476 layers, 87218881 parameters, 0 gradients, 217.2 GFLOPs
+Adding AutoShape... 
+ * Debugger is active!
+ * Debugger PIN: 303-185-940
+223.39.252.238 - - [29/Aug/2021 13:36:10] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:11] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:11] "GET /static/css/upload.css HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:32] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:32] "GET /static/css/upload.css HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:32] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:56] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:36:57] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:36:58] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:13] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:13] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:13] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:14] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:14] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:14] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:14] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:14] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "GET /static/icon/apple-icon-180x180.png HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:15] "GET /static/icon/apple-icon-152x152.png HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:26] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:26] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:26] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:28] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:37:28] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:37:28] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:41:10] "GET /upload HTTP/1.1" 200 -
+223.39.252.238 - - [29/Aug/2021 13:41:10] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.252.238 - - [29/Aug/2021 13:41:10] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+118.235.4.230 - - [29/Aug/2021 14:10:34] "GET /upload HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:34] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:35] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:35] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:35] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:35] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:36] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.4.230 - - [29/Aug/2021 14:10:36] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:36] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:36] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.4.230 - - [29/Aug/2021 14:10:49] "POST /fileUpload HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.4.230 - - [29/Aug/2021 14:10:53] "POST /fileUpload HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:54] "GET /static/css/result.css HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:54] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:10:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "GET /upload HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:17] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.4.230 - - [29/Aug/2021 14:11:18] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:18] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:18] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.4.230 - - [29/Aug/2021 14:11:55] "POST /fileUpload HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.4.230 - - [29/Aug/2021 14:11:57] "POST /fileUpload HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:57] "GET /static/css/result.css HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:11:57] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /upload HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.4.230 - - [29/Aug/2021 14:12:23] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:21:06] "GET /upload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:21:07] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 14:21:07] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:21:17] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:21:17] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:21:17] "GET /static/css/result.css HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:22:52] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:22:52] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 14:22:52] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:23:53] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:23:53] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:23:53] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:24:30] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:24:30] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 14:24:30] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:27:03] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:27:04] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 14:27:04] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:28:23] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:28:31] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:28:31] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:29:06] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:29:06] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:29:06] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:30:22] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:30:23] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 14:30:23] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+23.129.64.164 - - [29/Aug/2021 14:30:42] "[33mGET / HTTP/1.1[0m" 404 -
+185.220.101.140 - - [29/Aug/2021 14:30:45] "[33mGET / HTTP/1.1[0m" 404 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:31:08] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:31:09] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:31:09] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 14:33:40] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:33:40] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:33:40] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+118.235.4.88 - - [29/Aug/2021 14:37:50] "GET /upload HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:50] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:51] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:51] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:51] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:51] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:51] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.4.88 - - [29/Aug/2021 14:37:51] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:52] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+118.235.4.88 - - [29/Aug/2021 14:37:52] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:20] "GET /upload HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:20] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:20] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+118.235.5.144 - - [29/Aug/2021 14:38:21] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.5.116 - - [29/Aug/2021 14:38:36] "POST /fileUpload HTTP/1.1" 200 -
+118.235.5.116 - - [29/Aug/2021 14:38:36] "GET /static/css/result.css HTTP/1.1" 200 -
+118.235.5.116 - - [29/Aug/2021 14:38:36] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+118.235.5.116 - - [29/Aug/2021 14:38:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.39.253.127 - - [29/Aug/2021 14:59:34] "GET /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:59:34] "GET /static/css/result.css HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 14:59:34] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 15:00:26] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:00:27] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:00:27] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 15:02:22] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:02:23] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:02:23] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 15:03:50] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:03:50] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:03:50] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:20] "GET /upload HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:21] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:21] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+118.235.5.214 - - [29/Aug/2021 15:09:22] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.5.186 - - [29/Aug/2021 15:09:33] "POST /fileUpload HTTP/1.1" 200 -
+118.235.5.186 - - [29/Aug/2021 15:09:33] "GET /static/css/result.css HTTP/1.1" 200 -
+118.235.5.186 - - [29/Aug/2021 15:09:33] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+118.235.5.186 - - [29/Aug/2021 15:09:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+118.235.5.194 - - [29/Aug/2021 15:17:56] "GET /upload HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:56] "GET /static/css/upload.css HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:56] "GET /static/icon/testtest.png HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "GET /static/icon/favicon-16x16.png HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "GET /static/icon/favicon-96x96.png HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "GET /static/icon/favicon-32x32.png HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "[32mGET /static//icon/android-icon-192x192.png HTTP/1.1[0m" 308 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "GET /static/icon/android-icon-192x192.png HTTP/1.1" 200 -
+118.235.5.194 - - [29/Aug/2021 15:17:57] "GET /static/icon/favicon.ico HTTP/1.1" 200 -
+Saved 1 image to 'static/results'
+118.235.5.150 - - [29/Aug/2021 15:18:07] "POST /fileUpload HTTP/1.1" 200 -
+118.235.5.150 - - [29/Aug/2021 15:18:08] "GET /static/css/result.css HTTP/1.1" 200 -
+118.235.5.150 - - [29/Aug/2021 15:18:08] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+118.235.5.150 - - [29/Aug/2021 15:18:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.39.253.127 - - [29/Aug/2021 15:35:42] "GET /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:42] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:35:42] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:44] "[35m[1mPOST /fileUpload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2088, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dkjh/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/dkjh/datacampus/electricscooter/app.py", line 80, in upload_file
+    image = Image.open(request.files['file'].stream)
+  File "/home/dkjh/.local/lib/python3.7/site-packages/PIL/Image.py", line 3024, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file <tempfile.SpooledTemporaryFile object at 0x7f1fc01fe950>
+223.39.253.127 - - [29/Aug/2021 15:35:44] "GET /fileUpload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:44] "GET /fileUpload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:45] "GET /fileUpload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:45] "GET /fileUpload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:48] "GET /upload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:48] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:35:48] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:35:49] "GET /upload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:35:50] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:35:50] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 15:36:04] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:36:04] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:36:04] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:48:29] "GET /upload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:48:30] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:48:30] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+Saved 1 image to 'static/results'
+223.39.253.127 - - [29/Aug/2021 15:48:41] "POST /fileUpload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:48:42] "GET /static/results/image0.jpg HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:48:42] "[36mGET /static/css/result.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:49:53] "GET /upload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:49:53] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:49:54] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:50:03] "GET /upload HTTP/1.1" 200 -
+223.39.253.127 - - [29/Aug/2021 15:50:03] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+223.39.253.127 - - [29/Aug/2021 15:50:04] "[36mGET /static/icon/testtest.png HTTP/1.1[0m" 304 -
