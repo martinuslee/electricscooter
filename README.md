@@ -9,7 +9,7 @@
 - **Contributors** : 이종헌, 윤영민, 최인수, 이가원, 석주애
 - **Team Leader** : 이종헌
 - **Project integration management & Web FullStack Development** : 이종헌
-- **DeepLearning model fitting & fine tuing** : 이종헌, 윤영민
+- **DeepLearning model fitting & fine tuning** : 이종헌, 윤영민
 - **Image Dataset crawling & preprocessing** : 윤영민
 - **Collecting Public Data & preprocessing** : 최인수, 이가원, 석주애
 - **Location Data Analysis using Python, QGIS** : 최인수, 이가원, 석주애
