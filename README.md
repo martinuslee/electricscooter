@@ -4,7 +4,7 @@
 
 <p align="center"><img src="https://user-images.githubusercontent.com/70839563/131092082-efd87497-86ca-4adc-a17d-fe35324c8bd9.png" width="30%"/><img src="https://user-images.githubusercontent.com/70839563/131092097-137abb99-8baf-455c-8b77-eb17768476b5.png" width="30%"/></p>
 
-[웹 사이트 바로가기](https://1.222.84.186:5550/upload).
+[웹 사이트 바로가기](https://1.222.84.186:5550/upload). 모바일 환경에서 확인가능합니다.
 
 - **Contributors** : 이종헌, 윤영민, 최인수, 이가원, 석주애
 - **Team Leader** : 이종헌
